@@ -1,0 +1,70 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1100px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 700px;
+  }
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+/* STYLE TERO */
+
+ .fondo {
+     background-image: url(./img/eden-fondo1-copia.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;    
+     background-position: center center;
+ }
+
+ .letra {
+    font-family: 'Do Hyeon', sans-serif;
+    text-transform: uppercase;
+ }
+
+ .letra-form{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+ }
+
+ .logo {
+     position: absolute;
+     /* margin: 20% 0 0 35%; */
+     margin: 17rem 0 0 35vw;
+ }
+
+ @media(max-width: 770px) {
+     .logo {
+     margin: 30rem 0 0 0; 
+     }
+ }
+
+ /* Responisve reverse of content */
+
+ @media (max-width: 650px){
+    .flex-cont {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+ }
+
