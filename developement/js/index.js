@@ -67,16 +67,14 @@ $(document).ready(function () {
   ScrollReveal({ reset: false }).reveal('.parallax-booking', slideRight2);  
   ScrollReveal({ reset: false }).reveal('.artists-title', slideLeft1);
   ScrollReveal({ reset: false }).reveal('.artists-text', slideRight2);
-
-  ScrollReveal({ reset: false }).reveal('#dj-image-1', slideUp1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-2', slideDown1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-3', slideLeft1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-4', slideRight1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-5', slideRight1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-6', slideLeft1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-7', slideDown1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-8', slideUp1);
-
+  ScrollReveal({ reset: false }).reveal('#dj-image-1', { delay: 600 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-2', { delay: 1000 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-3', { delay: 800 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-4', { delay: 300 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-5', { delay: 700 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-6', { delay: 500 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-7', { delay: 900 });
+  ScrollReveal({ reset: false }).reveal('#dj-image-8', { delay: 400 });
 
   // ARTIST
   ScrollReveal({ reset: false }).reveal('.parallax-artists', slideRight2);
