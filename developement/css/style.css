@@ -1,0 +1,206 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav-style {
+  background-color: black;
+  /* font-family:'Overpass Mono', monospace; */
+  font-family: 'Play', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 0px 50px 0px 30px;
+}
+
+/* PARALLAX INTRO */
+
+.parallax {
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+}
+
+/* CAROUSEL SHADOW SETUP */
+
+.image:after {
+  content: '"Without music, life would be a mistake."';
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+  padding: 20rem 0 0 0vw;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+/* MUSIC/BOOKING/TICKETS LINKS SECTION */
+
+.music-booking-tickets {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 8rem;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+}
+
+.links-mbt {
+  background-color: white;
+  color: rgb(255, 255, 255);
+  height: 100%;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .music-booking-tickets {
+    display: block;
+  }
+  .links-mbt {
+    text-decoration: underline;
+  }
+}
+
+/* Shutter Out Vertical */
+
+.hvr-shutter-out-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: rgb(39, 39, 39);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-shutter-out-vertical:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(255, 255, 255);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-shutter-out-vertical:hover,
+.hvr-shutter-out-vertical:focus,
+.hvr-shutter-out-vertical:active {
+  color: rgb(0, 0, 0);
+}
+
+.hvr-shutter-out-vertical:hover:before,
+.hvr-shutter-out-vertical:focus:before,
+.hvr-shutter-out-vertical:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+/* ABOUT US SECTION */
+
+.about-us {
+  background-color: #ffffff;
+  padding: 4rem 0 5rem 0;
+}
+
+.about-us-title {
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  color: rgb(0, 0, 0);
+  padding-bottom: 2rem;
+}
+
+.about-us-text {
+  /* font-family:'Overpass Mono', monospace; */
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+@media (max-width: 400px) {
+  .about-us {
+    padding-top: 20rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .about-us-text {
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
+
+/* Scrollreveal config */
+
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+/* CONTACT FORM */
+
+.contact-title {
+  text-align: start;
+  font-family: 'Teko', sans-serif;
+  color: rgb(0, 0, 0);
+  padding-bottom: 2rem;
+}
+
+.contact-form {
+  background-color: #ffffff;
+}
+@media (max-width: 400px) {
+  .contact-form {
+    padding-top: 20rem;
+  }
+}
+
+.contact-button {
+  text-align: center;
+}
+
+/* FOOTER */
+
+.foot {
+  background-color: rgb(39, 39, 39);
+}
