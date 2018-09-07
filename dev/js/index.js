@@ -60,23 +60,23 @@ $(document).ready(function () {
 
 
   // INDEX
-  ScrollReveal({ reset: false }).reveal('.about-us-title', slideRight2);
-  ScrollReveal({ reset: false }).reveal('#about-us-image', slideUp2);
-  ScrollReveal({ reset: false }).reveal('#about-us-text', { delay: 300 });
+  // ScrollReveal({ reset: false }).reveal('.about-us-title', slideRight2);
+  // ScrollReveal({ reset: false }).reveal('#about-us-image', slideUp2);
+  // ScrollReveal({ reset: false }).reveal('#about-us-text', { delay: 300 });
 
   // BOOKING
-  ScrollReveal({ reset: false }).reveal('.parallax-booking', slideRight2);  
-  ScrollReveal({ reset: false }).reveal('.artists-title', slideLeft1);
-  ScrollReveal({ reset: false }).reveal('.artists-text', slideRight2);
+  // ScrollReveal({ reset: false }).reveal('.parallax-booking', slideRight2);  
+  // ScrollReveal({ reset: false }).reveal('.artists-title', slideLeft1);
+  // ScrollReveal({ reset: false }).reveal('.artists-text', slideRight2);
 
-  ScrollReveal({ reset: false }).reveal('#dj-image-1', slideUp1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-2', slideDown1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-3', slideLeft1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-4', slideRight1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-5', slideRight1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-6', slideLeft1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-7', slideDown1);
-  ScrollReveal({ reset: false }).reveal('#dj-image-8', slideUp1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-1', slideUp1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-2', slideDown1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-3', slideLeft1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-4', slideRight1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-5', slideRight1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-6', slideLeft1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-7', slideDown1);
+  // ScrollReveal({ reset: false }).reveal('#dj-image-8', slideUp1);
 
 
   // ARTIST
@@ -86,15 +86,15 @@ $(document).ready(function () {
   ScrollReveal({ reset: false }).reveal('#artist-text', { delay: 700 });
 
   //Contact form
-  ScrollReveal({ reset: true }).reveal('.contact-title', slideRight1);
-  ScrollReveal({ reset: true }).reveal('.artist-input', slideRight2);
-  ScrollReveal({ reset: true }).reveal('.name-input', slideLeft1);
-  ScrollReveal({ reset: true }).reveal('.last-name-input', slideDown2);
-  ScrollReveal({ reset: true }).reveal('.phone-input', slideUp2);
-  ScrollReveal({ reset: true }).reveal('.mail-input', slideRight1);
-  ScrollReveal({ reset: true }).reveal('.company-input', slideLeft2);
-  ScrollReveal({ reset: true }).reveal('.message-input', slideDown1);
-  ScrollReveal({ reset: true }).reveal('.contact-button', slideUp2);
+  // ScrollReveal({ reset: true }).reveal('.contact-title', slideRight1);
+  // ScrollReveal({ reset: true }).reveal('.artist-input', slideRight2);
+  // ScrollReveal({ reset: true }).reveal('.name-input', slideLeft1);
+  // ScrollReveal({ reset: true }).reveal('.last-name-input', slideDown2);
+  // ScrollReveal({ reset: true }).reveal('.phone-input', slideUp2);
+  // ScrollReveal({ reset: true }).reveal('.mail-input', slideRight1);
+  // ScrollReveal({ reset: true }).reveal('.company-input', slideLeft2);
+  // ScrollReveal({ reset: true }).reveal('.message-input', slideDown1);
+  // ScrollReveal({ reset: true }).reveal('.contact-button', slideUp2);
 
 
 

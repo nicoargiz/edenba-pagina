@@ -4,6 +4,9 @@ header,
 .view {
   height: 100%;
 }
+body {
+  overflow-x: hidden;
+}
 
 .nav-style {
   background-color: black;
