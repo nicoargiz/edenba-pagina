@@ -1,62 +1,62 @@
 $(document).ready(function () {
   new WOW().init();
 
-  var slideUp1 = {
-    distance: '50%',
-    origin: 'bottom',
-    duration: 2000,
-    opacity: 0,
-    delay: 800,
-  };
-  var slideUp2 = {
-    distance: '50%',
-    origin: 'bottom',
-    duration: 1000,
-    opacity: 0,
-    delay: 500,
-  };
-  var slideDown1 = {
-    distance: '50%',
-    origin: 'top',
-    duration: 2000,
-    opacity: 0,
-    delay: 800,
-  };
-  var slideDown2 = {
-    distance: '50%',
-    origin: 'top',
-    duration: 1000,
-    opacity: 0,
-    delay: 500,
-  };
-  var slideRight1 = {
-    distance: '50%',
-    origin: 'left',
-    duration: 2000,
-    opacity: 0,
-    delay: 800,
-  };
-  var slideRight2 = {
-    distance: '50%',
-    origin: 'left',
-    duration: 1000,
-    opacity: 0,
-    delay: 500,
-  };
-  var slideLeft1 = {
-    distance: '50%',
-    origin: 'right',
-    duration: 2000,
-    opacity: 0,
-    delay: 800,
-  };
-  var slideLeft2 = {
-    distance: '50%',
-    origin: 'right',
-    duration: 1000,
-    opacity: 0,
-    delay: 500,
-  };
+  // var slideUp1 = {
+  //   distance: '50%',
+  //   origin: 'bottom',
+  //   duration: 2000,
+  //   opacity: 0,
+  //   delay: 800,
+  // };
+  // var slideUp2 = {
+  //   distance: '50%',
+  //   origin: 'bottom',
+  //   duration: 1000,
+  //   opacity: 0,
+  //   delay: 500,
+  // };
+  // var slideDown1 = {
+  //   distance: '50%',
+  //   origin: 'top',
+  //   duration: 2000,
+  //   opacity: 0,
+  //   delay: 800,
+  // };
+  // var slideDown2 = {
+  //   distance: '50%',
+  //   origin: 'top',
+  //   duration: 1000,
+  //   opacity: 0,
+  //   delay: 500,
+  // };
+  // var slideRight1 = {
+  //   distance: '50%',
+  //   origin: 'left',
+  //   duration: 2000,
+  //   opacity: 0,
+  //   delay: 800,
+  // };
+  // var slideRight2 = {
+  //   distance: '50%',
+  //   origin: 'left',
+  //   duration: 1000,
+  //   opacity: 0,
+  //   delay: 500,
+  // };
+  // var slideLeft1 = {
+  //   distance: '50%',
+  //   origin: 'right',
+  //   duration: 2000,
+  //   opacity: 0,
+  //   delay: 800,
+  // };
+  // var slideLeft2 = {
+  //   distance: '50%',
+  //   origin: 'right',
+  //   duration: 1000,
+  //   opacity: 0,
+  //   delay: 500,
+  // };
 
 
   // INDEX
@@ -80,10 +80,10 @@ $(document).ready(function () {
 
 
   // ARTIST
-  ScrollReveal({ reset: false }).reveal('.parallax-artists', slideRight2);
+  // ScrollReveal({ reset: false }).reveal('.parallax-artists', slideRight2);
 
-  ScrollReveal({ reset: false }).reveal('.artist-image', slideUp1);
-  ScrollReveal({ reset: false }).reveal('#artist-text', { delay: 700 });
+  // ScrollReveal({ reset: false }).reveal('.artist-image', slideUp1);
+  // ScrollReveal({ reset: false }).reveal('#artist-text', { delay: 700 });
 
   //Contact form
   // ScrollReveal({ reset: true }).reveal('.contact-title', slideRight1);

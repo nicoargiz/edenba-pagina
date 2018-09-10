@@ -71,11 +71,6 @@ z-index: -1;
   text-align: justify;
 }
 
-/* @media (max-width: 400px) {
-  .bio{
-    padding-top: 20rem;
-  }
-} */
 @media (max-width: 990px) {
   .bio-text{
     padding-top: 2rem;
@@ -86,6 +81,14 @@ z-index: -1;
 .artists-form{
   background-color: #ffffff;
 }
+
+.artist-image{
+  box-shadow: #00000021 1px 1px 30px;
+  margin-bottom: 3rem;
+}
+
+
+/* ARTIST CONTACT */
 .contact-title{
   text-align: start;
   font-family: 'Teko', sans-serif;
