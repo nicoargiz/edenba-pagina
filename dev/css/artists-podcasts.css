@@ -69,6 +69,7 @@ z-index: -1;
   color: rgb(68, 68, 68);
   letter-spacing: 1px;
   text-align: justify;
+  line-height: 30px;
 }
 
 @media (max-width: 990px) {
@@ -84,7 +85,7 @@ z-index: -1;
 
 .artist-image{
   box-shadow: #00000021 1px 1px 30px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 
