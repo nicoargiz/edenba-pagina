@@ -22,8 +22,8 @@ font-weight: 600;
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin: 0px 50px 0px 30px;
 }
 .shadow-text {
@@ -87,6 +87,25 @@ z-index: -1;
   box-shadow: #00000021 1px 1px 30px;
   margin-bottom: 1rem;
 }
+
+.icon-list{
+  display: -webkit-box;   
+}
+@media (min-width: 990px) {
+  .artist-image{
+    margin-bottom: 3rem; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    z-index: 10;
+  }
+  .icon-list{
+    position: -webkit-sticky; 
+    position: sticky; 
+    top:550px;
+  }
+}
+
 
 
 /* ARTIST CONTACT */

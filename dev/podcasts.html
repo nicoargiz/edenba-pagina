@@ -5,15 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Eden-ba - Music</title>
+  <title>Eden-ba - Podcasts</title>
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/mdb.min.css" rel="stylesheet">
   <link href="css/music.css" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:600" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Play:700" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Play:700" rel="stylesheet"> -->
 </head>
 <!-- ScrollReveal JavaScripts -->
 <script src="https://unpkg.com/scrollreveal"></script>
@@ -22,7 +22,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark nav-style scrolling-navbar fixed-top px-0">
       <a class="navbar-brand p-0" href="#">
-        <img class="logo" src="./img/logo circulo blanco.png" alt="Logo">
+        <img class="logo" src="./img/logo-circulo-negro.png" alt="Logo">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,8 +36,14 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item mr-3">
-            <a class="nav-link" href="music.html">Music</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Music
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item nav-item" href="podcasts.html">Podcasts</a>
+              <a class="dropdown-item" href="#">Releases</a>
+            </div>
           </li>
           <li class="nav-item mr-3 ">
             <a class="nav-link" href="./booking.html">Booking</a>
@@ -68,29 +74,21 @@
         </ul>
       </div>
     </nav>
-    <div class="view parallax animated wow fadeInLeft">
-      <img class="w-100" src="./img/music-intro.jpeg" height="100%" alt="Music cover">
-      <div class="mask rgba-black-light d-flex">
-        <div class="container-fluid parallax-music">
+    <div class="view intro-parallax">
+      <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+        <div class="container">
           <div class="row">
-            <div class="col-md-12 wow fadeIn mb-3">
-              <h1 class="animated wow fadeInDown shadow-text" data-wow-delay="0.8s">- Music -</a></h1>
+            <div class="col-md-12 mb-4">
+              <h1 class="h1-reponsive white-text mb-0 animated wow fadeInLeft"
+                data-wow-delay="0.3s">
+                - Podcasts -
+              </h1>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- <div class="parallax">
-      <div>
-        <div class="parallax-booking animated wow fadeInLeft" data-wow-delay="0.3s">
-          <div class="carousel-item active " style="height: 100vh;">
-            <img class="d-block w-100" src="./img/music-intro.jpeg" style="height: 100%; " alt="First slide">
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- <iframe style="margin-top: 91vh; position: fixed; z-index: 250;" width="100%" height="60" scrolling="no" frameborder="no" allow="" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/359401319&color=%2329221a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe> -->
-  </header>
+    </header>
 
   <section class="music">
     <h1 class="music-title animated wow fadeInLeft" data-wow-delay="0.5s">Our music</h1>
@@ -403,13 +401,15 @@
   <!-- /Start your project here-->
 
   <!-- SCRIPTS -->
-  <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+
+  <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>  
+  <script type="text/javascript" src="./js/jquery.paroller.min.js"></script>
   <script type="text/javascript" src="./js/popper.min.js"></script>
   <script type="text/javascript" src="./js/bootstrap.min.js"></script>
   <script type="text/javascript" src="./js/mdb.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> -->
   <script src="./js/index.js"></script>
-  <script src="./js/music2.js"></script>
+  <!-- <script src="./js/music2.js"></script> -->
 </body>
 
 </html>
